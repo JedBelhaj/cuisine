@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+    font-family: 'Raleway';
+}
+#first{
+    animation: fade 0.5s;
+}
+@keyframes fade {
+    0%{
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+.n{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 60px;
+    max-width: 1200px;
+}
+.container{ 
+    margin: 80px auto;
+    padding: 60px;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+div a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    font-weight: 550;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin: 0 20px;
+}
+#mainbtn{
+    text-decoration: none;
+    padding: 13px 20px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #26643b;
+    border-radius: 10px;
+    margin: 0;
+}
+.tit1{
+    width: 350px;
+    font-size: 40px;
+    margin: 0 0 30px;
+    font-family: 'Raleway';
+    color: rgb(41, 41, 41);
+}
+#elem2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#elem1{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 0;
+}
+#elem{
+    min-width: 800px;
+    max-width: 1300px;  
+    flex-wrap: wrap-reverse;
+    padding: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+@keyframes fade2 {
+    0%{
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.p1{
+    font-family: 'Raleway';
+    width: 350px;
+    margin: 0 0 20px;
+}
+.btn{
+    color: #26643b;
+}
+.all{
+    animation: fade2 0.5s;
+    margin: 0 auto 0 0;
+    justify-self: center;
+}
+.container img{
+    flex-shrink: 3;
+    min-width: 0;
+    margin: 0 30px;
+}
+.padcontainer .pad img{
+    margin-bottom: 10px;
+}
+.main{
+    font-weight: 600;
+}
+.padcontainer .pad p{
+    font-family: 'Raleway';
+    margin-bottom: 10px;
+}
+.padcontainer{ 
+    margin: 80px auto 0;
+    padding: 60px auto 0;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+.pad{
+    margin: 10px;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+    background-color: #D6E5D8;
+}
+.dish img.plate{
+    position: relative;
+    top: 50px;
+    margin: 0;
+}
+.dish img{
+    width: 221px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 10px 0 20px;
+}
+.dish{
+    flex-shrink: 3;
+    margin: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 260px;
+}
+img.star{
+    height: 15px;
+    width: 95px;
+}
+.tit{
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.prix{
+    color: #26643b;
+    font-weight: 700;
+    margin: 0 0 10px 0; 
+}
+#bord{
+    font-family: 'Raleway';
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: left;
+    height: 450px;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    background-color: #D6E5D8;
+}
+section div.container{
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+.dish{
+    flex-shrink: 2;
+}
+section.special .container{
+    flex-shrink: 2;
+}
+.specialdesc{
+    flex-shrink: 1;
+    position: relative;
+    top: 140px;
+    margin: 20px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.specialdesc .tit{
+    font-size: 38px;
+    margin: 0;
+    align-self: start;
+}
+.specialdesc a#mainbtn{
+    width: 120px;
+    align-self: flex-start;
+}
+.specialdesc p{
+    margin: 15px 0;
+    font-size: 18px;
+}
+section.topdishes{
+    display: flex;
+    flex-direction: row;
+}
+.container.top{
+    justify-content: center;
+    align-items: center;
+}
+.mainimg{
+    border-radius: 15px;
+    width: 150px;
+    height: 117px;
+    margin: 0 10px 0!important;
+}
+.top{
+    margin: 10px;
+    border-radius: 15px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #D6E5D8;
+}
+div.topdesc .star{
+    margin: 0;
+}
+div.topdesc .tit{
+    margin: 0 0 10px;
+}
+section.topdishes{
+    display: flex;
+    flex-direction: column;
+}
+h1.tit1{
+    max-width: 1200px;
+    float: center;
+    
+}
+.titcont{
+    align-self: center;
+    max-width: 1200px;
+    margin: 0 60% 0 auto;
+}
+#td{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.top{
+    flex-shrink: 1;
+}
+.top.img{
+    background-size: cover;
+}
+@media only screen  and (max-width: 900px) {
+    .container img#first{
+        max-width: 300px;
+}
+.dish{
+    align-self: center;
+    justify-self: center;
+}
+@media only screen and (max-width: 768px){
+    *{
+        flex-shrink: 1!important;
+    }
+    .container img#first{
+        flex-shrink: 1;
+    }
+    section{
+        flex-shrink: 1;
+    }
+    .specialdesc{
+        display: none;
+    }
+    .top{
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+    }
+    .top h1{
+        flex-shrink: 1;
+    }
+    .padcontainer{
+        flex-shrink: 1;
+    }
+    .top.img{
+        background-size: cover;
+    }
+    .tit1{
+        width: auto;
+        flex-shrink: 1;
+    }
+    section.topdishes{
+        flex-shrink: 1;
+    }
+    #td{
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .dish{
+        align-self: center;
+        justify-self: center;
+    }
+    }
+    .n{
+        display: none;
+    }
+    .container{
+        flex-shrink: 1;
+        margin: 0;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .all{
+        margin: 30px 0;
+        order: 2;
+    }
+    #elem1{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tit1{
+        text-align: center;
+        width: 350px;
+        font-size: 20px;
+        margin: 0 0 30px;
+        font-family: 'Raleway';
+        color: rgb(41, 41, 41);
+    }
+    p{
+        text-align: center;
+    }
+    #elem2{
+        align-items: center;
+        justify-content: center;
+    }
+    .padcontainer{
+        flex-wrap: wrap;
+    }
+    .pad{
+        flex-shrink: 1;
+    }
+    section.topdishes{
+        margin-top: 100px;;
+    }
+    
+}
